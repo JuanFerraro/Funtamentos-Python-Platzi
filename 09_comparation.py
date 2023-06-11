@@ -1,0 +1,17 @@
+# > < >= <= (Mayor, menor, menor igual que, mayor igual que)
+print(7 < 3)
+print(7 > 3)
+print(7 < 7)
+print(7 > 7)
+print(7 >= 7)
+print(7 <= 12)
+print("*******")
+# == (igualdad)
+print(6 == 6)
+print(2 == 6)
+print("Apple" == 'Apple')
+print("Apple" == 'apple')
+print("1" == 1)
+
+age = 15
+print( age >= 18)
