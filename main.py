@@ -3,7 +3,7 @@ import random
 while True:
     user_option = input("Elige tu opcion: \n    Piedra\n    Papel \n    Tijera\nOpcion: ")
     user_option = user_option.lower()
-    if not (user_option in ["papel", "tijera", "piedra"]):
+    if not (user_option in ("papel", "tijera", "piedra")):
         print("Reescribe de nuevo tu opcion")
     else:
         break
